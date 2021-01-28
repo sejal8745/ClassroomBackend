@@ -2,10 +2,10 @@
   "name": "classroombackend",
   "version": "1.0.0",
   "description": "",
-  "main": "back.js",
+  "main": "App.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon back.js"
+    "start": "nodemon App.js"
   },
   "author": "",
   "license": "ISC",
