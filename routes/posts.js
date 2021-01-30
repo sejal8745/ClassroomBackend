@@ -6,9 +6,6 @@ const router = express.Router();
 router.get("/", (req, res) => {
   res.send("we are on posts");
 });
-router.get("/specific", (req, res) => {
-  res.send("specific post");
-});
 
 router.post("/", (req, res) => {
   // console.log(req.body);
@@ -18,7 +15,8 @@ router.post("/", (req, res) => {
     roomlink: req.body.roomlink,
     section: req.body.section,
     startDate: req.body.startDate,
-    endDate: req.body.endDate
+    endDate: req.body.endDate,
+
   });
 
   post
