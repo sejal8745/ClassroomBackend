@@ -8,14 +8,6 @@ const ProjectSchema = mongoose.Schema({
     features: {
       type:String,
       required: true,
-    },
-    feature: {
-      type:String,
-      required: true,
-    },
-    features: {
-      type:String,
-      required: true,
     }
 
   });
