@@ -37,6 +37,7 @@ The Frontend Files can be found at [ClassRoom](https://github.com/parulsurana/Cl
 
 ## <img src="https://media.giphy.com/media/5ndklThG9vUUdTmgMn/giphy.gif" alt="prerequisite" width="38px" > Tech Stack
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img width="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code>
 <code><img height="30" src="https://ih1.redbubble.net/image.489553241.2202/st,small,507x507-pad,600x600,f8f8f8.u1.jpg"></code>
 <code><img height="30" src="https://cdn.worldvectorlogo.com/logos/nodemon.svg"></code>
