@@ -5,14 +5,12 @@ import ProjectSchema from "./modules/Project.js";
 import BookSchema from "./modules/Book.js";
 const app = express();
 import mongoose from "mongoose";
+import {} from 'dotenv/config.js';
 app.use(express.json());
 app.use(Cors());
 
 
-
-
-const connection_url = "mongodb+srv://monster:monster23@project.bqfih.mongodb.net/personalInfo?retryWrites=true&w=majority"
-mongoose.connect(connection_url, {
+mongoose.connect( process.env.DB_CONNECTION, {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
@@ -91,6 +89,7 @@ app.get("/book", (req, res) => {
   });
 });
 
+//Fetch data of particular ID
 app.get("/info/:id" , (req, res) => {
   console.log(req.params.id);
   PostSchema.findById(req.params.id)
