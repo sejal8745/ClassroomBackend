@@ -35,6 +35,15 @@ The Frontend Files can be found at [ClassRoom](https://github.com/parulsurana/Cl
   npm start
 ```
 
+Base URL = ``` localhost:7000 ```
+<h1> Routes </h1>
+1. /info
+<br>
+2. /project <br>
+3. /book <br>
+4. /info/:id <br>
+
+
 ## <img src="https://media.giphy.com/media/5ndklThG9vUUdTmgMn/giphy.gif" alt="prerequisite" width="38px" > Tech Stack
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
